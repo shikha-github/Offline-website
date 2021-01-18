@@ -17,7 +17,7 @@ public class UserPageTest {
 
 WebDriver driver;
 	UserPage page;
-	
+	//
 	public Logger log ;
 	public Logger testLog(){
 		log= Logger.getLogger(this.getClass());
