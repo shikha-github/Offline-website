@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class UserPageRepository {
-
+//
 	@FindBy(xpath="//section[@class='content-header']//following::h1")
 	public WebElement mainHeading;
 	
