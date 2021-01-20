@@ -3,8 +3,7 @@ package com.pages;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
+
 import org.openqa.selenium.Alert;
 
 import org.openqa.selenium.WebDriver;
@@ -28,14 +27,7 @@ public class UserPage extends UserPageRepository {
 		 PageFactory.initElements(driver ,this);
 		 this.driver=driver;
 	}
-	public Logger log ;
-	public Logger pagelog(){
-		 log= Logger.getLogger(this.getClass());
-		String path =(System.getProperty("user.dir")+"/log4jPage.properties");
-		PropertyConfigurator.configure(path);
-		return log;
-		 
-	}
+	
 
 	
 	public boolean mainHeading() {

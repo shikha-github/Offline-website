@@ -5,7 +5,9 @@ import java.util.List;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class UserPageRepository {
+import com.pages.BasePage;
+
+public class UserPageRepository extends BasePage {
 //
 	@FindBy(xpath="//section[@class='content-header']//following::h1")
 	public WebElement mainHeading;

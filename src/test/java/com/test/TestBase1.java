@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import com.pages.DashBoardPage;
@@ -20,14 +21,12 @@ public class TestBase1 {
 	public static UserPage up=null;
 	public static OperatorPaage op=null;
 	public static UsefullLinkPage ulp=null;
-	//public static DownloadPaage dp=null;
-	public static Logger log=null;
-	//
+	
 	public static WebDriver initialization() throws Exception{
-		log=Logger.getLogger(TestBase1.class);
+		
 	System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 	driver = new ChromeDriver();
-	//driver.get("file:///D:/New%20Folder%20(2)/Offline%20website/pages/examples/dashboard.html");
+	
 	FileInputStream fis = new FileInputStream("src/main/resources/config.properties");
 	  Properties property = new Properties();
 	    property.load(fis);
@@ -38,5 +37,15 @@ public class TestBase1 {
 	return driver;
 	}
 	
+	// log4j code added by Vinayak Date-20/01/2021
+	
+	public Logger log ;
+	public Logger testLog(){
+		log= Logger.getLogger(this.getClass());
+		String path =(System.getProperty("user.dir")+"/log4jTest.properties");
+		PropertyConfigurator.configure(path);
+		return log;
+		 
+	}
 	
 }

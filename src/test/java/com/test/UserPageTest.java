@@ -1,7 +1,6 @@
 package com.test;
 
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -12,20 +11,13 @@ import org.testng.annotations.Test;
 
 import com.pages.UserPage;
 
-public class UserPageTest {
+public class UserPageTest extends TestBase1{
 
 
 WebDriver driver;
 	UserPage page;
-	//
-	public Logger log ;
-	public Logger testLog(){
-		log= Logger.getLogger(this.getClass());
-		String path =(System.getProperty("user.dir")+"/log4jTest.properties");
-		PropertyConfigurator.configure(path);
-		return log;
-		 
-	}
+	
+	
 	
 	@BeforeMethod
 	public void openBrowser(){
