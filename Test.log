@@ -1,0 +1,18 @@
+2021-01-13 19:53:33,348  INFO [main] UserPageTest:45 -  verifying main Heading
+2021-01-13 19:53:38,429  INFO [main] UserPageTest:50 - addUserbutton
+2021-01-13 19:53:42,948  INFO [main] UserPageTest:55 - verfying table1
+2021-01-13 19:53:47,213  INFO [main] UserPageTest:60 - verifying table2
+2021-01-13 19:53:51,739  INFO [main] UserPageTest:65 - verifying table3
+2021-01-13 19:53:56,380  INFO [main] UserPageTest:70 - verifying table4
+2021-01-13 19:54:00,910  INFO [main] UserPageTest:75 - verifying table5
+2021-01-13 19:54:05,257  INFO [main] UserPageTest:80 - verifying table6
+2021-01-13 19:54:09,755  INFO [main] UserPageTest:85 - verifying table7
+2021-01-13 19:54:14,277  INFO [main] UserPageTest:90 - verifying header
+2021-01-13 19:54:19,179  INFO [main] UserPageTest:95 - verifying FirstRow
+2021-01-13 19:54:23,929  INFO [main] UserPageTest:100 - verifying SecondRow
+2021-01-13 19:54:28,439  INFO [main] UserPageTest:105 - verifying ThirdRow
+2021-01-13 19:54:33,045  INFO [main] UserPageTest:110 - verifying FourthRow
+2021-01-13 19:54:37,901  INFO [main] UserPageTest:115 - verifying Logout
+2021-01-13 19:54:42,350  INFO [main] UserPageTest:120 - verifying logOutMsg
+2021-01-13 19:54:46,960  INFO [main] UserPageTest:125 -  verifying addUser Headers
+2021-01-13 19:54:51,649  INFO [main] UserPageTest:130 - verifying FirstDelete Button 

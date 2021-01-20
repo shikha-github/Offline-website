@@ -1,0 +1,67 @@
+2021-01-13 19:53:33,352  INFO [main] UserPage:39 -  open mainHeading 
+2021-01-13 19:53:33,849  INFO [main] UserPage:43 -  actualdata Log
+2021-01-13 19:53:34,179  INFO [main] UserPage:48 -  Heading is matched  
+2021-01-13 19:53:38,432  INFO [main] UserPage:60 -  click addUser button 
+2021-01-13 19:53:38,775  INFO [main] UserPage:64 -  actualdata 
+2021-01-13 19:53:38,838  INFO [main] UserPage:69 -  Heading is matched  
+2021-01-13 19:53:42,953  INFO [main] UserPage:81 -  open table1 
+2021-01-13 19:53:43,155  INFO [main] UserPage:90 -  expected data
+2021-01-13 19:53:43,232  INFO [main] UserPage:96 -  actual data  
+2021-01-13 19:53:43,232  INFO [main] UserPage:99 -  Heading is matched  
+2021-01-13 19:53:47,218  INFO [main] UserPage:110 -  open table2 
+2021-01-13 19:53:47,456  INFO [main] UserPage:119 -  expected data  
+2021-01-13 19:53:47,562  INFO [main] UserPage:125 -  actualdata 
+2021-01-13 19:53:47,562  INFO [main] UserPage:128 -  Heading is matched 
+2021-01-13 19:53:51,744  INFO [main] UserPage:139 -  open table3  
+2021-01-13 19:53:51,935  INFO [main] UserPage:148 -  expected data 
+2021-01-13 19:53:52,036  INFO [main] UserPage:154 -  actual data 
+2021-01-13 19:53:52,036  INFO [main] UserPage:157 -  Heading is matched 
+2021-01-13 19:53:56,396  INFO [main] UserPage:168 -  open table4  
+2021-01-13 19:53:56,586  INFO [main] UserPage:177 -  expected data 
+2021-01-13 19:53:56,692  INFO [main] UserPage:183 -  actual data 
+2021-01-13 19:53:56,692  INFO [main] UserPage:186 -  Heading is matched 
+2021-01-13 19:54:00,910  INFO [main] UserPage:197 -  open table5  
+2021-01-13 19:54:01,116  INFO [main] UserPage:206 -  expected data 
+2021-01-13 19:54:01,213  INFO [main] UserPage:212 -  actual data 
+2021-01-13 19:54:01,213  INFO [main] UserPage:215 -  Heading is matched 
+2021-01-13 19:54:05,263  INFO [main] UserPage:226 -  open table6  
+2021-01-13 19:54:05,464  INFO [main] UserPage:235 -  expected data 
+2021-01-13 19:54:05,565  INFO [main] UserPage:241 -  actual data 
+2021-01-13 19:54:05,565  INFO [main] UserPage:244 -  Heading is matched 
+2021-01-13 19:54:09,760  INFO [main] UserPage:255 -  open table7  
+2021-01-13 19:54:09,936  INFO [main] UserPage:264 -  expected data 
+2021-01-13 19:54:10,037  INFO [main] UserPage:270 -  actual data  
+2021-01-13 19:54:10,037  INFO [main] UserPage:273 -  Heading is matched
+2021-01-13 19:54:14,282  INFO [main] UserPage:284 -  verifying header  
+2021-01-13 19:54:14,478  INFO [main] UserPage:297 -  expected data 
+2021-01-13 19:54:14,642  INFO [main] UserPage:303 -   actual data   
+2021-01-13 19:54:14,642  INFO [main] UserPage:306 - Heading is matched 
+2021-01-13 19:54:19,184  INFO [main] UserPage:317 -  verify 1st Row  
+2021-01-13 19:54:19,385  INFO [main] UserPage:330 -   expected data  
+2021-01-13 19:54:19,548  INFO [main] UserPage:336 -  actual data  
+2021-01-13 19:54:19,548  INFO [main] UserPage:339 - Heading is matched 
+2021-01-13 19:54:23,934  INFO [main] UserPage:350 -  verifying 2nd Row   
+2021-01-13 19:54:24,136  INFO [main] UserPage:363 -  expected data 
+2021-01-13 19:54:24,305  INFO [main] UserPage:369 - actual data  
+2021-01-13 19:54:24,305  INFO [main] UserPage:372 - Heading is matched
+2021-01-13 19:54:28,444  INFO [main] UserPage:383 -  verifying 3rd Row   
+2021-01-13 19:54:28,645  INFO [main] UserPage:396 -  expected data 
+2021-01-13 19:54:28,808  INFO [main] UserPage:402 -  actual data    
+2021-01-13 19:54:28,808  INFO [main] UserPage:405 -  Heading is matched 
+2021-01-13 19:54:33,051  INFO [main] UserPage:417 -  verifying  4th Row   
+2021-01-13 19:54:33,222  INFO [main] UserPage:430 -  expected data  
+2021-01-13 19:54:33,386  INFO [main] UserPage:436 -  actual data   
+2021-01-13 19:54:33,386  INFO [main] UserPage:439 -  Heading is matched 
+2021-01-13 19:54:37,909  INFO [main] UserPage:450 -  Logout message   
+2021-01-13 19:54:38,099  INFO [main] UserPage:454 -  actual data   
+2021-01-13 19:54:38,163  INFO [main] UserPage:459 -  Heading is matched 
+2021-01-13 19:54:42,355  INFO [main] UserPage:470 -  Logout message Log   
+2021-01-13 19:54:42,456  INFO [main] UserPage:474 -  actual data 
+2021-01-13 19:54:42,506  INFO [main] UserPage:479 -  Heading is matched 
+2021-01-13 19:54:46,965  INFO [main] UserPage:490 -  Headers for adding Users   
+2021-01-13 19:54:47,231  INFO [main] UserPage:502 -  expected data 
+2021-01-13 19:54:47,402  INFO [main] UserPage:508 -  actual data 
+2021-01-13 19:54:47,403  INFO [main] UserPage:511 - Heading is matched
+2021-01-13 19:54:51,649  INFO [main] UserPage:522 -  verifying 1st Delete button  
+2021-01-13 19:54:51,896  INFO [main] UserPage:528 -   actual data  
+2021-01-13 19:54:51,921  INFO [main] UserPage:533 -  Heading is matched 
