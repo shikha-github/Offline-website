@@ -28,11 +28,11 @@ public class LoginPage extends LoginPageObjRepo{
 			return false;
 		}
 	}
-	public DashboardPage logindata() {
+	public DashBoardPage logindata() {
 		weUserName.sendKeys("kiran@gmail.com");
 		wePasswd.sendKeys("123456");
 		weSubmit.click();
-		return new DashboardPage(driver);
+		return new DashBoardPage(driver);
 	}
 	
 	public boolean loginCorrectData() {
