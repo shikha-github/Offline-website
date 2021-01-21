@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
-import objectRepository.UsefullLinkRepository;
+import objectRepositary.UsefullLinkRepository;
 
 
 public class UsefullLinkPage extends UsefullLinkRepository {
@@ -83,8 +83,8 @@ public class UsefullLinkPage extends UsefullLinkRepository {
 		for (int i = 2; i <= 7; i++) {
 			WebElement vendor = driver.findElement(By.xpath("//tr[" + i + "]/td[2]"));
 			String text = vendor.getText();
-			if (text.contains("Interview "))
-				;
+			if (text.contains("Interview ")){
+				
 
 			WebElement link = driver.findElement(By.xpath("//tr[" + i + "]/td[3]/a"));
 			link.click();
@@ -95,6 +95,7 @@ public class UsefullLinkPage extends UsefullLinkRepository {
 					System.out.println("new window url:" + driver.getCurrentUrl());
 					System.out.println("new window url is:" + driver.getCurrentUrl());
 				}
+			}
 			}
 		}
 		return true;
