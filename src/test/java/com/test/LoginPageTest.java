@@ -9,18 +9,17 @@ import org.testng.annotations.Test;
 
 import com.pages.LoginPage;
 
-public class LoginPageTest {
+public class LoginPageTest extends TestBase1{
 	WebDriver driver;
 	LoginPage lgn = null;
 	
-	@BeforeMethod
-	public void openBrowser(){
-	System.setProperty("webdriver.chrome.driver", "C:\\Users\\chromedriver.exe");
-	driver = new ChromeDriver();
-	driver.manage().window().maximize();
-	driver.get("file:///D:/Offline%20website/Offline%20website/index.html");
-	lgn = new LoginPage(driver);
-}
+		@BeforeMethod
+		public void openBrowser() throws Exception{
+		driver=initialization();
+		driver.navigate().to("file:///D:/New%20Folder%20(2)/Offline%20website/index.html");
+		lgn =new LoginPage(driver);
+		}
+	
 	@AfterMethod
 	public void closeBrowser(){
 		driver.close();
