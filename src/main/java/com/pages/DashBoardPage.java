@@ -409,17 +409,17 @@ public class DashBoardPage extends DashBoardPageRepository{
 		return new UserPage(driver);
 	}
 	
-	/*public OperatorPage navigateToOperatorPage(){
+	public OperatorPaage navigateToOperatorPage(){
 		operators.click();
-		return new OperatorPage(driver);
+		return new OperatorPaage(driver);
 	}
 	
-	public UserPage navigateToUsefulLinksPage(){
+	public UsefullLinkPage navigateToUsefulLinksPage(){
 		user.click();
-		return new UserPage(driver);
+		return new UsefullLinkPage(driver);
 	}
 	
-	public DownloadPage navigateToDownloadsPage(){
+	/*public DownloadPage navigateToDownloadsPage(){
 		downloads.click();
 		return new DownloadPage(driver);
 	}*/
